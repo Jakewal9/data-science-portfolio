@@ -6,6 +6,6 @@ Welcome to my Data Science Studio portfolio.
 This website will document my learning and projects throughout the semester.
 ---
 ## Portfolio
-- [LinkedIn](https://www.linkedin.com/in/jake-walden-726895368/)
+- [LinkedIn/Resume](LinkedIn/Resume.md)
 - [Blog](blog.md)
 - [Projects](projects.md)
