@@ -10,3 +10,5 @@ The data used for this analysis comes from the 2025 NFL season and was accessed 
 Before analyzing the data, I cleaned and prepared it so that each observation represented one NFL game from the 2025 regular season. Using `nflreadpy`, I filtered the data to include only games from the 2025 season and removed preseason and postseason games. I organized the turnover data by team and game and calculated each team’s total turnovers using interceptions and lost fumbles. The home and away team statistics were then combined with the game results so that turnover totals could be compared between opponents. Games were then classified based on whether the team that won the turnover battle won or lost the game. Games where both teams had the same number of turnovers were excluded because neither team won the turnover battle.
 
 # Visualizations
+<img width="1489" height="790" alt="image" src="https://github.com/user-attachments/assets/1f1bb8c9-7f9d-4060-ab09-1f52c74fa122" />
+<img width="1389" height="804" alt="image" src="https://github.com/user-attachments/assets/9555fecb-fde0-4ecc-9e2a-cc27b0314495" />
