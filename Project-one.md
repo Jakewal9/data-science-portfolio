@@ -9,6 +9,9 @@ The data used for this analysis comes from the 2025 NFL season and was accessed 
 # Data Cleaning and Preparation
 Before analyzing the data, I cleaned and prepared it so that each observation represented one NFL game from the 2025 regular season. Using nflreadpy, I filtered the data to include only games from the 2025 season and removed preseason and postseason games. I organized the turnover data by team and game and calculated each team’s total turnovers using interceptions and lost fumbles. The home and away team statistics were then combined with the game results so that turnover totals could be compared between opponents. Games were then classified based on whether the team that won the turnover battle won or lost the game. Games where both teams had the same number of turnovers were excluded because neither team won the turnover battle.
 
-# Visualizations
+# Data Understanding and Visualizations
+In order to get an initial understanding of the 2025 NFL data, I created visualizations to examine how turnovers were related to winning. Since the main goal of my analysis was to determine whether turnovers affect game results, I first looked at what happened when each team won the turnover battle during the regular season.
 <img width="1489" height="790" alt="image" src="https://github.com/user-attachments/assets/1f1bb8c9-7f9d-4060-ab09-1f52c74fa122" />
+This shows when each NFL team won the turnover battle during the 2025 regular season. The blue portion of the bar shows that team won, the orange portion represents games lost despite winning the turnover battle. Chicago won 10 of the 12 games in which it won the turnover battle. Several other teams won every game shown in which they won the turnover battle. However, there are still exceptions, as teams such as Arizona, Kansas City, Cleveland, and Tennessee lost multiple games despite having fewer turnovers than their opponents.
 <img width="1389" height="804" alt="image" src="https://github.com/user-attachments/assets/9555fecb-fde0-4ecc-9e2a-cc27b0314495" />
+
