@@ -1,4 +1,4 @@
-# Project One
+# How Turnovers Impact Winning in the NFL
 
 # Problem Defintion
 The purpose of this analysis is to determine how winning the turnover battle affected game results during the 2025 NFL regular season. Turnovers, such as interceptions and lost fumbles, can have a major impact on a game because they end an offensive possession and give the opposing team an additional opportunity to score. A team wins the turnover battle when it committed fewer turnovers than its opponent. This project will compare the turnover margin of each game with the final result to determine how often teams that won the turnover battle also won the game. By examining every regular-season game rather than only looking at season totals, the analysis can show the relationship between turnovers and winning on a game by game basis. The goal is to determine whether winning the turnover battle was a strong indicator of winning an NFL game during the 2025 season.
