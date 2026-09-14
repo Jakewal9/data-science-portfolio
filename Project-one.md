@@ -26,7 +26,7 @@ References:
   https://nflreadpy.nflverse.com
 
 Code:
-
+  Project-one.ipynb
 
 AI disclaimer:
   ChatGPT assisted me to help troubleshoot and problem solve for my visuals.
