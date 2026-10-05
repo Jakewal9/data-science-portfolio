@@ -26,6 +26,8 @@ Overall, my results suggest that previous team performance can help predict NFL 
 <img width="1122" height="889" alt="image" src="https://github.com/user-attachments/assets/45994dff-4f0a-4ada-8103-9c433d60acc8" />
 <img width="528" height="453" alt="image" src="https://github.com/user-attachments/assets/36db44e4-acb5-4aff-a71f-0b753b424e96" />
 <img width="528" height="453" alt="image" src="https://github.com/user-attachments/assets/3903e70a-65b7-445e-80c6-f512c62e7efc" />
+<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/ba29bd96-9c23-47f0-a8a9-7c7428310f17" />
+
 
 
 References: Grant, J. (2026). What Makes a Good NFL Prediction? The Tattler. https://bcctattler.org/9748/sports/what-makes-a-good-nfl-prediction/
