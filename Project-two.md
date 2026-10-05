@@ -5,12 +5,12 @@ For this project, my goal was to use machine learning to determine whether an NF
 My main research question was: Can an NFL team's previous performance statistics be used to predict whether the team will win its next regular-season game?
 # Data and Process
 The data for this project came from nflverse and was accessed in Python using the nflreadpy package. I used the NFL schedule and weekly team statistics from the 2021 through 2025 regular seasons.
-The original team game dataset contained 2,718 observations. I created pregame statistics including previous win percentage, recent win percentage, average points scored and allowed, passing and rushing yards, turnover differential, opponent performance, and home-field status.
+The original team game dataset contained 2,718 observations. I created pregame statistics including previous win percentage, recent win percentage, average points scored and allowed, passing and rushing yards, turnover differential, opponent performance, and home field status.
 One of the most important parts of preparing the data was preventing data leakage. Since I wanted to predict games before they happened, I shifted the historical calculations so that the statistics from the current game were never included in its predictors.
 Some observations at the beginning of each season had missing values because there were not enough previous games to calculate historical averages. After removing these observations, the final dataset contained 2,238 observations: 1,116 wins and 1,122 losses.
 I used the 2021–2024 seasons to train the final models and the 2025 season for testing. This allowed the models to learn from previous seasons before being evaluated on a later season.
 # Models
-I created three models for comparison. The first was a Dummy Classifier that served as my baseline. It always predicted the most common outcome and achieved an accuracy of about 50.2%. This gave me a simple benchmark that my machine-learning models needed to outperform.
+I created three models for comparison, the first was a Dummy Classifier that served as my baseline. It always predicted the most common outcome and achieved an accuracy of about 50.2%. This gave me a simple benchmark that my machine learning models needed to outperform.
 My second model was Logistic Regression. On the 2025 test data, it achieved 62.1% accuracy, 62.7% precision, 58.7% recall, and a 60.6% F1 score.
 My third model was Random Forest. It achieved 62.5% accuracy, 62.6% precision, 61.4% recall, and a 62.0% F1 score. Random Forest performed slightly better on the 2025 test set, but the difference between the two models was small.
 Because the models were so close, I also compared their performance across previous seasons. Logistic Regression achieved accuracies of 61.7% in 2022, 58.7% in 2023, and 69.0% in 2024, averaging about 63.1%. Random Forest achieved 53.1%, 58.9%, and 63.6%, averaging about 58.5%.
