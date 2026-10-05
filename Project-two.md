@@ -22,6 +22,11 @@ The model was far from perfect. During error analysis, I found several games whe
 These mistakes show one of the main limitations of the model. Historical statistics cannot account for everything that happens in an NFL game. Injuries, quarterback changes, weather, coaching decisions, turnovers during the game, and individual performances can all influence the result.
 Another limitation is that each game is represented by two team observations. Since one team's win is the other team's loss, those observations are related. In a future version of this project, I would create one observation per game and directly compare the statistics of the two teams. I would also include additional pregame information such as injuries, quarterback availability, rest, and weather.
 Overall, my results suggest that previous team performance can help predict NFL game outcomes, but it cannot predict them with certainty. The approximately 62% test accuracy shows that the model learned meaningful patterns while also demonstrating how much uncertainty remains in NFL games.
+# Correlation Matrices
+<img width="1122" height="889" alt="image" src="https://github.com/user-attachments/assets/45994dff-4f0a-4ada-8103-9c433d60acc8" />
+<img width="528" height="453" alt="image" src="https://github.com/user-attachments/assets/36db44e4-acb5-4aff-a71f-0b753b424e96" />
+<img width="528" height="453" alt="image" src="https://github.com/user-attachments/assets/3903e70a-65b7-445e-80c6-f512c62e7efc" />
+
 
 References:
 
