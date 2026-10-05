@@ -23,4 +23,9 @@ These mistakes show one of the main limitations of the model. Historical statist
 Another limitation is that each game is represented by two team observations. Since one team's win is the other team's loss, those observations are related. In a future version of this project, I would create one observation per game and directly compare the statistics of the two teams. I would also include additional pregame information such as injuries, quarterback availability, rest, and weather.
 Overall, my results suggest that previous team performance can help predict NFL game outcomes, but it cannot predict them with certainty. The approximately 62% test accuracy shows that the model learned meaningful patterns while also demonstrating how much uncertainty remains in NFL games.
 
+References:
+
+Code:
+
+
 
