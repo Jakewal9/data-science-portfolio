@@ -28,7 +28,9 @@ Overall, my results suggest that previous team performance can help predict NFL 
 <img width="528" height="453" alt="image" src="https://github.com/user-attachments/assets/3903e70a-65b7-445e-80c6-f512c62e7efc" />
 
 
-References:
+References: Grant, J. (2026). What Makes a Good NFL Prediction? The Tattler. https://bcctattler.org/9748/sports/what-makes-a-good-nfl-prediction/
+Pelechrinis, K., & Papalexakis, E. (2016). The Anatomy of American Football: Evidence from 7 Years of NFL Game Data. PLOS ONE, 11(12), e0168716. https://doi.org/10.1371/journal.pone.0168716
+Roumani, Y. F. (2022). Sports analytics in the NFL: classifying the winner of the superbowl. Annals of Operations Research, 325(1), 715–730. https://doi.org/10.1007/s10479-022-05063-x
 
 Code: https://github.com/Jakewal9/project-two-code
 
