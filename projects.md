@@ -3,4 +3,4 @@ This section documents my data science projects, research questions, and data st
 ---
 ## Project 1
 - [Project one](Project-one.md)
-- [Project Two](Project-two.md)
+- [Project two](Project-two.md)
