@@ -30,7 +30,7 @@ Overall, my results suggest that previous team performance can help predict NFL 
 
 References:
 
-Code: 
+Code: https://github.com/Jakewal9/project-two-code
 
 AI disclaimer: ChatGPT assisted me to help troubleshoot and problem solve for my visuals.
 
